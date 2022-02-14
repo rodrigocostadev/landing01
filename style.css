@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+#container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo{
+    display: inline-block;        
+}
+
+.principal{
+    display: block;
+    background-image: url(./assets/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 150px;
+    /* width: 100%; */
+    position: relative;
+        
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 50px;
+    }
+
+    .tittle{
+        font-size: 60px;
+        /* font-family: Haettenschweiler, sans-serif; */
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        color: navy;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        
+    }
+
+    .subtittle{
+        font-size: 25px;
+        transform: translateY(50%);
+        /* font-family: sans-serif; */
+        font-family: 'Raleway', sans-serif;
+        color: rgb(82, 18, 18);
+        font-weight: 600;
+        margin-bottom: 300px;
+    }
+
+    .validate{
+        display: inline-block;
+        text-align: center;
+        background-color: #FFFFFFBB ;
+        width: 1100px;
+        height: 160px;        
+        border-radius: 15px;        
+        position: relative;       
+
+    }
+
+    .submit{
+        
+        background-color: royalblue;
+        color: white;
+        padding: 10px;
+        width: 200px;
+        box-sizing: border-box;
+        font-weight: bold;
+        border: none;
+        
+    }
+
+    input{
+        padding: 10px;
+        transform: translateY(50%);
+        border: none;
+        margin-right: 5px;
+        border-radius: 5px;
+    }
+
+    .textbox{
+        margin-top: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+    }
+
+    .footer{
+        background-color: black;
+        position: relative;        
+        height: 500px;       
+        text-align: center;
+        font-family: -apple-system, sans-serif;
+        font-size: 20px;
+    }
+
+    .textfooter{
+        color: white;
+        padding-top: 60px;   
+        box-sizing: border-box;    
+        font-weight: bold; 
+        margin-bottom: 80px;
+        font-size: 30px;
+        
+    }
+
+    .happyimage{
+        float: right;
+        margin-right: 150px;
+        
+    }
+
+
+
+
+
+    @media screen and (max-width: 1180px) {
+
+            .tittle{
+            font-size: 50px;
+            /* font-family: Haettenschweiler, sans-serif; */
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            color: navy;
+            margin-bottom: 30px;
+            margin-top: 50px;
+            
+        }
+
+            .subtittle{
+            font-size: 20px;
+            transform: translateY(50%);
+            /* font-family: sans-serif; */
+            font-family: 'Raleway', sans-serif;
+            color: rgb(82, 18, 18);
+            font-weight: 600;
+            margin-bottom: 300px;
+        }
+
+            .textfooter{
+            margin-top: 1px;   
+            box-sizing: border-box;    
+            font-weight: bold; 
+            margin-bottom: 80px;
+            font-size: 30px;
+            
+        }
+
+            .content{                
+            margin-bottom: 80px;
+            }
+
+            .validate{
+                width: 800px;
+            }
+        
+
+        
+
+        @media screen and (max-width: 1100px) {
+
+            .tittle{
+                font-size: 40px;
+                /* font-family: Haettenschweiler, sans-serif; */
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                color: navy;
+                margin-bottom: 30px;
+                margin-top: 50px;
+                
+            }  
+
+            .content{                
+                margin-bottom: 10px;
+                }
+            
+
+        }
+
+        @media screen and (max-width: 1000px) {
+            .subtittle{
+                font-size: 16px;
+                transform: translateY(50%);
+                /* font-family: sans-serif; */
+                font-family: 'Raleway', sans-serif;
+                color: rgb(82, 18, 18);
+                font-weight: 600;
+                margin-bottom: 300px;
+            }
+
+            .content{                
+                margin-bottom: 20px;
+                }
+        }
+
+        @media screen and (max-width: 960px) {
+
+            .tittle{               
+                margin-top: 30px;                
+            }
+
+            .subtittle{                
+                margin-bottom: 200px;
+            }
+
+            .content{                
+                margin-bottom: 20px;
+                }
+
+            .textfooter{                    
+                    font-size: 20px;                    
+                }
+
+            .validate{
+                    height: 140px;   
+             
+                }
+
+        }
+
+        @media screen and (max-width: 850px){
+
+            .tittle{               
+                margin-top: 10px;                
+            }
+
+            .textfooter{                    
+                font-size: 20px;                                
+            }
+
+            .validate{
+                display: inline-block;
+                text-align: center;
+                background-color: #FFFFFFBB ;
+                width: 600px;
+                height: 120px;        
+                border-radius: 15px;        
+                position: relative;    
+        
+            }
+
+            .textbox{
+                margin-top: 15px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 20px;
+            }
+
+            input{
+                padding: 5px;
+                transform: translateY(50%);
+                border: none;
+                margin-right: 5px;
+                border-radius: 5px;
+            }
+
+            .submit{ 
+                padding: 5px;                
+            }           
+
+            .happyimage{
+                float: right;
+                margin-right: 100px;                
+            }
+
+            
+        }
+
+        @media screen and (max-width: 785px){
+
+            .tittle{               
+                margin-top: 10px;                   
+                font-size: 30px;           
+            }
+
+            .subtittle{
+                font-size: 13px;
+            }   
+            
+            .happyimage{
+                float: right;
+                margin-right: 60px;                
+            }
+        }
+
+        @media screen and (max-width: 705px){
+            .tittle{               
+                margin-top: 10px;                   
+                font-size: 30px;                          
+            }
+
+            .validate{                
+                width: 500px;
+                height: 120px;  
+            }
+
+            .textbox{
+                margin-top: 15px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 15px;
+            }
+
+            input{
+                padding: 5px;   
+            }
+
+            .submit{        
+                padding: 5px;
+                width: 100px;               
+            }           
+
+            .happyimage{
+                float: right;
+                margin-right: 20px;                
+            }
+        }
+
+        @media screen and (max-width: 650px){
+            
+
+            .happyimage{ 
+                transform: translateX(-50%);                
+            }
+
+            .tittle{               
+                margin-top: 6px;                   
+                font-size: 25px;               
+                margin-bottom: 15px;           
+            }
+
+            .subtittle{
+                font-size: 10px;
+                margin-bottom: 300px;
+            }
+
+            
+        }
+
+        @media screen and (max-width: 640px){            
+
+            .happyimage{ 
+                transform: translateX(-50%, -50%);
+                top: 100%;
+                position: absolute;
+               left: 50%;
+            }           
+
+            
+    }   
+
+    @media screen and (max-width: 540px){
+        
+            .validate{
+            display: inline-block;
+            text-align: center;
+            background-color: #FFFFFFBB ;
+            width: 400px;
+            height: 160px;        
+            border-radius: 15px;        
+            position: relative;  
+            }
+
+            .submit{        
+            padding: 5px;
+            width: 100px;  
+            margin-top: 20px;
+            }
+    }
