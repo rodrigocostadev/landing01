@@ -358,7 +358,7 @@ body{
             
     }   
 
-    @media screen and (max-width: 540px){
+    @media screen and (max-width: 560px){
         
             .validate{
             display: inline-block;
